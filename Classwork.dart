@@ -27,6 +27,8 @@
           print("Are you sure? Y/N");
           var ans = takeInput();
           if(ans.toLowerCase() == 'y'){
+            print("Good Bye & Take Care! Press anykey to exit");
+            takeInput();
             cls();
             return;
           }
